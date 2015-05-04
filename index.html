@@ -10,6 +10,7 @@
 		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 		<meta name="description" content="" />
 		<meta name="keywords" content="" />
+        <meta name=”viewport” content=”width=device-width, initial-scale=1" />
 		<!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
 		<script src="js/jquery.min.js"></script>
 		<script src="js/jquery.scrollzer.min.js"></script>
@@ -72,19 +73,39 @@
 
 			<!-- Main -->
 				<div id="main">
-
 					<!-- One -->
 						<section id="one">
-							<div class="container">
-								<header class="major">
-									<h2>INEXT株式会社</h2>
-							        <h4>明日のために今！</h4>
-                                                                <h4>すべてはお客様のために！</h4>
-								</header>
-								      私たちは、人と人の心を大切に人ありきの考えのもと、人と技術を融合した最適のソリューションを提案させていただく若い技術集団です。
-                                                                      情報系サービスの開発、ソフトウェアやWebシステムの開発を得意とし、常駐技術者の派遣を行っております。
-                                                                      生まれたばかりのINEXTですが、ユニークな発想のもと常に新たなサービスを提案し、「お客様のために」を合言葉に、進化するプロ集団を目指してまいります。
-							</div>
+                        <div class="container">
+                                                <div id="jquery-script-menu"> </div>
+                                                <div class="slider">
+                                                <div class="slider-container">
+                                                <div class="slider-wrapper">
+                                                <div class="slide"> <img src="images/img1.jpg" alt="jQuery Slider with CSS Transitions" style="max-width:100%"> </div>
+                                                <div class="slide"> <img src="images/img2.jpg" alt="jQuery Slider with CSS Transitions" style="max-width:100%"> </div>
+                                                <div class="slide"> <img src="images/img3.jpg" alt="jQuery Slider with CSS Transitions" style="max-width:100%"> </div>
+                                                <div class="slide"> <img src="images/img4.jpg" alt="jQuery Slider with CSS Transitions" style="max-width:100%"> </div>
+                                                </div>
+                                                </div>
+                                                </div>
+                                                <script src="js/jquery-1.8.3.min.js"></script> 
+                                                <script src="js/slider.js"></script> 
+                                                <script type="text/javascript">
+	                                        (function() {
+		                                Slider.init({
+			                        target: $('.slider'),
+			                        time: 6000
+		                                });
+	                                        })();
+                                                </script>
+						<header class="major">
+						<h2>INEXT株式会社</h2>
+					        <h4>明日のために今！</h4>
+                                                <h4>すべてはお客様のために！</h4>
+						</header>
+				                私たちは、人と人の心を大切に人ありきの考えのもと、人と技術を融合した最適のソリューションを提案させていただく若い技術集団です。
+                                                情報系サービスの開発、ソフトウェアやWebシステムの開発を得意とし、常駐技術者の派遣を行っております。
+                                                生まれたばかりのINEXTですが、ユニークな発想のもと常に新たなサービスを提案し、「お客様のために」を合言葉に、進化するプロ集団を目指してまいります。
+					        </div>
 						</section>
 
 					<!-- Two -->
